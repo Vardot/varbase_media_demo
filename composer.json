@@ -23,7 +23,7 @@
     }
   ],
   "require": {
-    "drupal/core": "~9.0",
-    "drupal/varbase_media": "~9.0 || 9.0.x-dev"
+    "drupal/core": "~10.1.0",
+    "drupal/varbase_media": "~10.0 || 10.0.x-dev"
   }
 }

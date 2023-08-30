@@ -1,7 +1,7 @@
 name: Varbase Media Demo Assets
 description: Provide a pre-set of default media assets for all Varbase Media Types, which are needed in development, testing, and demos.
 type: module
-core_version_requirement: ~9.0
+core_version_requirement: ~10.1.0
 package: 'Varbase Demos'
 dependencies:
   - varbase_media:varbase_media
