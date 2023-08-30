@@ -3,7 +3,7 @@
 Provide a pre-set of default media assets for all Varbase Media Types,
 which are needed in development, testing, and demos.
 
-Change directory to you Varbase Project in the terminal:
+Change directory to the Varbase Project in the terminal:
 ```
 cd /var/www/html/projects/PROJECT_DIR_NAME
 ```
