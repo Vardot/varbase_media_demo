@@ -15,7 +15,19 @@ composer require 'drupal/varbase_media_demo:~10.0'
 
 Enable the module by Drush ( or install it from the UI)
 ```
-drush en varbase_media_demo
+./bin/drush en varbase_media_demo
 ```
 
 Open the site with the browser and navigate to `"/admin/content/media-grid"`
+
+Media Library Grid view
+![](https://www.drupal.org/files/issues/2023-08-30/varbase-media-demo-assets--Varbase-10--media-library--grid.png)
+
+Media Library - Images
+![](https://www.drupal.org/files/issues/2023-08-30/Create-Blog-post-varbase10c1--media-library--images.png)
+
+Media Library - Remote Videos
+![](https://www.drupal.org/files/issues/2023-08-30/Create-Blog-post-varbase10c1--media-library--remote_vidoes.png)
+
+Media Library - Local Videos
+![](https://www.drupal.org/files/issues/2023-08-30/Create-Blog-post-varbase10c1--media-library--local_vidoes.png)
