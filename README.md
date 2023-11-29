@@ -10,7 +10,7 @@ cd /var/www/html/projects/PROJECT_DIR_NAME
 
 Install with Composer
 ```
-composer require 'drupal/varbase_media_demo:~10.0'
+composer require 'drupal/varbase_media_demo'
 ```
 
 Enable the module by Drush ( or install it from the UI)
