@@ -12,7 +12,7 @@ default:
       value: app-2.png
   uri:
     -
-      value: 'public://2022-01/app-2.png'
+      value: 'public://2024-04/app-2.png'
   filemime:
     -
       value: image/png

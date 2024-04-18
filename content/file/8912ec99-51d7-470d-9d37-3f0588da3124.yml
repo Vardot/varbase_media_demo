@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8912ec99-51d7-470d-9d37-3f0588da3124
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: business-way.webp
+  uri:
+    -
+      value: 'public://2024-04/business-way.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 1591722
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1713435038

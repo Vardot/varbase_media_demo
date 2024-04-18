@@ -12,7 +12,7 @@ default:
       value: business-meeting.png
   uri:
     -
-      value: 'public://2022-01/business-meeting.png'
+      value: 'public://2024-04/business-meeting.png'
   filemime:
     -
       value: image/png

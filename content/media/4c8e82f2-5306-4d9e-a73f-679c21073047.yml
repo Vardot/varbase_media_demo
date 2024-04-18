@@ -1,0 +1,45 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4c8e82f2-5306-4d9e-a73f-679c21073047
+  bundle: image
+  default_langcode: en
+  depends:
+    dc9a99f6-c186-460f-8616-c52bae4f8bb8: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Created new Image'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Conference 2'
+  created:
+    -
+      value: 1713438214
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: dc9a99f6-c186-460f-8616-c52bae4f8bb8
+      alt: 'Conference 2'
+      title: 'Conference 2'
+      width: 4096
+      height: 2731
+  field_media_in_library:
+    -
+      value: true

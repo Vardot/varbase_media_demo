@@ -12,7 +12,7 @@ default:
       value: figure-12.png
   uri:
     -
-      value: 'public://2022-01/figure-12.png'
+      value: 'public://2024-04/figure-12.png'
   filemime:
     -
       value: image/png

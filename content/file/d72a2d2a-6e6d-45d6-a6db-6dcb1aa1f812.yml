@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d72a2d2a-6e6d-45d6-a6db-6dcb1aa1f812
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: conference-1.webp
+  uri:
+    -
+      value: 'public://2024-04/conference-1.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 1556576
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1713435444

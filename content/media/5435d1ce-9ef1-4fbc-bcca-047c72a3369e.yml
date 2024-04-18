@@ -1,0 +1,45 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 5435d1ce-9ef1-4fbc-bcca-047c72a3369e
+  bundle: image
+  default_langcode: en
+  depends:
+    41a7e408-115b-496a-badc-4413cee20708: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Created new Image'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Skyscraper
+  created:
+    -
+      value: 1713439769
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 41a7e408-115b-496a-badc-4413cee20708
+      alt: Skyscraper
+      title: Skyscraper
+      width: 4096
+      height: 3072
+  field_media_in_library:
+    -
+      value: true

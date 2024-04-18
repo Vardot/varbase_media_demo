@@ -1,0 +1,45 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 53e7e92c-6506-408b-89cc-2ec279a9ec92
+  bundle: image
+  default_langcode: en
+  depends:
+    8912ec99-51d7-470d-9d37-3f0588da3124: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Created new Image'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Business way'
+  created:
+    -
+      value: 1713435038
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 8912ec99-51d7-470d-9d37-3f0588da3124
+      alt: 'Business way'
+      title: 'Business way'
+      width: 4096
+      height: 2731
+  field_media_in_library:
+    -
+      value: true

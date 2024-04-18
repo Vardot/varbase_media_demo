@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 41a7e408-115b-496a-badc-4413cee20708
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: skyscraper.webp
+  uri:
+    -
+      value: 'public://2024-04/skyscraper.webp'
+  filemime:
+    -
+      value: image/webp
+  filesize:
+    -
+      value: 1246142
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1713439769

@@ -1,0 +1,45 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d810838b-aef1-4555-b48b-47e8d98188f6
+  bundle: image
+  default_langcode: en
+  depends:
+    5bddfa11-1a47-439a-ad6c-e7e95e8b41d5: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Created new Image'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Meeting 5'
+  created:
+    -
+      value: 1713439445
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 5bddfa11-1a47-439a-ad6c-e7e95e8b41d5
+      alt: 'Meeting 5'
+      title: 'Meeting 5'
+      width: 4096
+      height: 2731
+  field_media_in_library:
+    -
+      value: true

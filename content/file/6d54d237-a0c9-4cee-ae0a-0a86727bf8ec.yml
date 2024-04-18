@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6d54d237-a0c9-4cee-ae0a-0a86727bf8ec
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: X1qJmpnuMjQlrcNRGmPPQwO1jTM6wT_I9qKSJ4BhPms.jpg
+  uri:
+    -
+      value: 'public://oembed_thumbnails/X1qJmpnuMjQlrcNRGmPPQwO1jTM6wT_I9qKSJ4BhPms.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4988
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1713432296

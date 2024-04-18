@@ -12,7 +12,7 @@ default:
       value: blog-1_0.jpg
   uri:
     -
-      value: 'public://2022-01/blog-1_0.jpg'
+      value: 'public://2024-04/blog-1_0.jpg'
   filemime:
     -
       value: image/jpeg

@@ -1,0 +1,45 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 062724de-e3e9-4366-bb51-5c2b643ba521
+  bundle: image
+  default_langcode: en
+  depends:
+    d72a2d2a-6e6d-45d6-a6db-6dcb1aa1f812: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Created new Image'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Conference 1'
+  created:
+    -
+      value: 1713435444
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: d72a2d2a-6e6d-45d6-a6db-6dcb1aa1f812
+      alt: 'Conference 1'
+      title: 'Conference 1'
+      width: 4096
+      height: 2731
+  field_media_in_library:
+    -
+      value: true

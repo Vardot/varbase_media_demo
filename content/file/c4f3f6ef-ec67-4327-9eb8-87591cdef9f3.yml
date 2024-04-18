@@ -12,7 +12,7 @@ default:
       value: team-1.jpg
   uri:
     -
-      value: 'public://2022-01/team-1.jpg'
+      value: 'public://2024-04/team-1.jpg'
   filemime:
     -
       value: image/jpeg

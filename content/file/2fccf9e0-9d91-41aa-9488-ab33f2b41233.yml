@@ -12,7 +12,7 @@ default:
       value: TsdT5FNEvGMWQTPHtjra3VlBGY2X_Da3LQZEyy9HtAM.jpg
   uri:
     -
-      value: 'public://oembed_thumbnails/TsdT5FNEvGMWQTPHtjra3VlBGY2X_Da3LQZEyy9HtAM.jpg'
+      value: 'public://oembed_thumbnails/TsdT5FNEvGMWQTPHtjra3VlBGY2X_Da3LQZEyy9HtAM_0.jpg'
   filemime:
     -
       value: image/jpeg

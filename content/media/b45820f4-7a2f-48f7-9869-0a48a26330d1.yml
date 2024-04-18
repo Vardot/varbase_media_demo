@@ -1,0 +1,45 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b45820f4-7a2f-48f7-9869-0a48a26330d1
+  bundle: image
+  default_langcode: en
+  depends:
+    1754463a-423c-49dc-a85b-129778a8dfcb: file
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Created new Image'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Coworking 2'
+  created:
+    -
+      value: 1713438415
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 1754463a-423c-49dc-a85b-129778a8dfcb
+      alt: 'Coworking 2'
+      title: 'Coworking 2'
+      width: 4096
+      height: 2731
+  field_media_in_library:
+    -
+      value: true

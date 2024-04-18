@@ -9,10 +9,10 @@ default:
       target_id: 1
   filename:
     -
-      value: business-meeting_0.mp4
+      value: business-meeting.mp4
   uri:
     -
-      value: 'public://2022-01/business-meeting_0.mp4'
+      value: 'public://2024-04/business-meeting.mp4'
   filemime:
     -
       value: video/mp4

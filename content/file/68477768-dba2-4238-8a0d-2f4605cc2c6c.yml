@@ -12,7 +12,7 @@ default:
       value: bg-image-1.png
   uri:
     -
-      value: 'public://2022-01/bg-image-1.png'
+      value: 'public://2024-04/bg-image-1.png'
   filemime:
     -
       value: image/png
