@@ -12,7 +12,7 @@ default:
       target_id: 1
   revision_log_message:
     -
-      value: 'Updated the Cover Image field'
+      value: 'Created new Remote video'
   status:
     -
       value: true

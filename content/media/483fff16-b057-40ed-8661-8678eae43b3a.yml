@@ -12,7 +12,7 @@ default:
       target_id: 1
   revision_log_message:
     -
-      value: 'Updated the Name and Image fields'
+      value: 'Created new Image'
   status:
     -
       value: true

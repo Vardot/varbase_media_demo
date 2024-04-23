@@ -12,7 +12,7 @@ default:
       target_id: 1
   revision_log_message:
     -
-      value: 'Updated Video'
+      value: 'Created new video'
   status:
     -
       value: true

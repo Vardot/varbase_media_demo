@@ -9,13 +9,13 @@ default:
       target_id: 1
   filename:
     -
-      value: coworking-3.jpg
+      value: coworking-3.webp
   uri:
     -
-      value: 'public://2024-04/coworking-3.jpg'
+      value: 'public://2024-04/coworking-3.webp'
   filemime:
     -
-      value: image/jpeg
+      value: image/webp
   filesize:
     -
       value: 98782
@@ -24,4 +24,4 @@ default:
       value: true
   created:
     -
-      value: 1642682146
+      value: 1713438475
