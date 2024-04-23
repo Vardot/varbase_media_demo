@@ -33,8 +33,8 @@ default:
       entity: ef46d5fb-c867-4451-8a2a-9f35a94b50a5
       alt: 'Coworking 3'
       title: 'Coworking 3'
-      width: 1200
-      height: 800
+      width: 4096
+      height: 2299
   field_media_in_library:
     -
       value: true

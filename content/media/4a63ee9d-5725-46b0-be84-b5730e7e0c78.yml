@@ -28,11 +28,6 @@ default:
   revision_translation_affected:
     -
       value: true
-  path:
-    -
-      alias: ''
-      langcode: en
-      pathauto: 0
   field_media_image:
     -
       entity: 4b67ae96-c46d-45aa-aa8f-db68f00d53e6
