@@ -24,6 +24,6 @@
   ],
   "require": {
     "drupal/core": ">=11.1",
-    "drupal/varbase_media": "~10.1.0 || 10.1.x-dev"
+    "drupal/varbase_media": "~10.1.0"
   }
 }
