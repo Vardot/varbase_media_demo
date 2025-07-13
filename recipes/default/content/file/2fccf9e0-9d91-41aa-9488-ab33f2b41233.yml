@@ -9,7 +9,7 @@ default:
       target_id: 1
   filename:
     -
-      value: TsdT5FNEvGMWQTPHtjra3VlBGY2X_Da3LQZEyy9HtAM.jpg
+      value: TsdT5FNEvGMWQTPHtjra3VlBGY2X_Da3LQZEyy9HtAM_0.jpg
   uri:
     -
       value: 'public://oembed_thumbnails/TsdT5FNEvGMWQTPHtjra3VlBGY2X_Da3LQZEyy9HtAM_0.jpg'
