@@ -28,6 +28,11 @@ default:
   revision_translation_affected:
     -
       value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
   field_media_in_library:
     -
       value: true

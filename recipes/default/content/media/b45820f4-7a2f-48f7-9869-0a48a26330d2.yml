@@ -1,11 +1,11 @@
 _meta:
   version: '1.0'
   entity_type: media
-  uuid: 10dc781e-e925-4151-985b-6c2bd4e6b141
+  uuid: b45820f4-7a2f-48f7-9869-0a48a26330d2
   bundle: image
   default_langcode: en
   depends:
-    13bb2a00-09c5-4b66-80e0-fc6db50180a6: file
+    1754463a-423c-49dc-a85b-129778a8dfcd: file
 default:
   revision_user:
     -
@@ -21,10 +21,10 @@ default:
       target_id: 1
   name:
     -
-      value: 'Business meeting'
+      value: 'Group working at long wooden table with laptops'
   created:
     -
-      value: 1642682146
+      value: 1713438415
   revision_translation_affected:
     -
       value: true
@@ -35,11 +35,11 @@ default:
       pathauto: 1
   field_media_image:
     -
-      entity: 13bb2a00-09c5-4b66-80e0-fc6db50180a6
-      alt: 'A man sits at a table with coffee cups, engaged in discussion.'
-      title: 'Man at table with coffee, discussing'
-      width: 1635
-      height: 920
+      entity: 1754463a-423c-49dc-a85b-129778a8dfcd
+      alt: 'Group of people working at a long wooden table with laptops.'
+      title: 'People working at long wooden table'
+      width: 4096
+      height: 2731
   field_media_in_library:
     -
-      value: true
+      value: false

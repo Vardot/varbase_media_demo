@@ -21,18 +21,23 @@ default:
       target_id: 1
   name:
     -
-      value: 'Avatar 1'
+      value: 'Avatar: Man in sunglasses and hat looking up'
   created:
     -
       value: 1642682146
   revision_translation_affected:
     -
       value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
   field_media_image:
     -
       entity: dc21ec79-9feb-4e65-81dc-6da03c9a6f42
-      alt: 'Avatar 1'
-      title: 'Avatar 1'
+      alt: 'Man wearing sunglasses and a hat, gazing upwards against a textured orange wall.'
+      title: 'Man in sunglasses and hat looking up'
       width: 500
       height: 500
   field_media_in_library:

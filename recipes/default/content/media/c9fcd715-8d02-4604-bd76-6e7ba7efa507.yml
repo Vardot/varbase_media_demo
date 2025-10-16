@@ -21,18 +21,23 @@ default:
       target_id: 1
   name:
     -
-      value: 'Meeting 4'
+      value: 'Two people discussing at sunlit table'
   created:
     -
       value: 1713439253
   revision_translation_affected:
     -
       value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
   field_media_image:
     -
       entity: ac01299f-ef92-4287-833c-8359419fb1c1
-      alt: 'Meeting 4'
-      title: 'Meeting 4'
+      alt: 'Two people sit at a table in discussion, sunlight filters through blinds.'
+      title: 'Two people discussing at sunlit table'
       width: 2048
       height: 1366
   field_media_in_library:

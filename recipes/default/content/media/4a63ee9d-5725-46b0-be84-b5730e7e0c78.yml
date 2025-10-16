@@ -28,11 +28,16 @@ default:
   revision_translation_affected:
     -
       value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
   field_media_image:
     -
       entity: 4b67ae96-c46d-45aa-aa8f-db68f00d53e6
-      alt: 'Business welcome'
-      title: 'Business welcome'
+      alt: 'Two men walking in a bright, modern office space, engaged in conversation.'
+      title: 'Two men walking and talking in office'
       width: 4096
       height: 2731
   field_media_in_library:

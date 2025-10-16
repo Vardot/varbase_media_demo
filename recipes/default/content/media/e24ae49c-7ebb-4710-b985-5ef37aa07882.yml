@@ -3,7 +3,7 @@ _meta:
   entity_type: media
   uuid: e24ae49c-7ebb-4710-b985-5ef37aa07882
   bundle: remote_video
-  default_langcode: und
+  default_langcode: en
   depends:
     68477768-dba2-4238-8a0d-2f4605cc2c6c: file
 default:
@@ -25,13 +25,15 @@ default:
   created:
     -
       value: 1642684771
-  revision_translation_affected:
+  path:
     -
-      value: true
+      alias: ''
+      langcode: en
+      pathauto: 1
   field_media_cover_image:
     -
       entity: 68477768-dba2-4238-8a0d-2f4605cc2c6c
-      alt: ''
+      alt: 'Two people sitting at a table, hands visible, blue overlay.'
       title: ''
       width: 1864
       height: 1171

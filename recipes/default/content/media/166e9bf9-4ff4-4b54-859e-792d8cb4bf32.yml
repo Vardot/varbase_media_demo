@@ -21,18 +21,23 @@ default:
       target_id: 1
   name:
     -
-      value: 'Figure 14'
+      value: 'Figure: Person sitting in blue shirt and white shoes'
   created:
     -
       value: 1642682146
   revision_translation_affected:
     -
       value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
   field_media_image:
     -
       entity: 040e3490-dd75-41a7-b54a-b15d747da209
-      alt: 'Figure 14'
-      title: 'Figure 14'
+      alt: 'Graphic of a person sitting, wearing a blue shirt and white shoes.'
+      title: 'Person sitting in blue shirt and white shoes'
       width: 303
       height: 417
   field_media_in_library:

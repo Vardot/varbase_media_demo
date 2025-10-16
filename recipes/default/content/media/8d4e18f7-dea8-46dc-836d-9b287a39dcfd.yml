@@ -21,18 +21,23 @@ default:
       target_id: 1
   name:
     -
-      value: 'Blog 1'
+      value: 'Focused man working on laptop in bright cafe'
   created:
     -
       value: 1642684997
   revision_translation_affected:
     -
       value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
   field_media_image:
     -
       entity: 8c86981a-b0d6-4ef1-bb11-dc338ebe2800
-      alt: 'Blog 1'
-      title: 'Blog 1'
+      alt: 'Man working on a laptop in a bright cafe, plants nearby.'
+      title: 'Man working on laptop in cafe'
       width: 1200
       height: 800
   field_media_in_library:

@@ -21,18 +21,23 @@ default:
       target_id: 1
   name:
     -
-      value: 'Team 1'
+      value: 'Team 1: Smiling man in yellow jacket with glasses'
   created:
     -
       value: 1642682146
   revision_translation_affected:
     -
       value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
   field_media_image:
     -
       entity: c4f3f6ef-ec67-4327-9eb8-87591cdef9f3
-      alt: 'Team 1'
-      title: 'Team 1'
+      alt: 'Man in a yellow jacket and glasses smiling, arms crossed.'
+      title: 'Man in a yellow jacket and glasses smiling, arms crossed.'
       width: 600
       height: 800
   field_media_in_library:

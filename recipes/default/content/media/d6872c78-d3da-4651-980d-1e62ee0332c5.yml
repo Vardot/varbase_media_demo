@@ -21,18 +21,23 @@ default:
       target_id: 1
   name:
     -
-      value: 'Startup 2'
+      value: 'Woman at desk with computer and mug'
   created:
     -
       value: 1642682146
   revision_translation_affected:
     -
       value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
   field_media_image:
     -
       entity: 9e57ffd4-c18d-41d6-8c9e-f6ad62cd446b
-      alt: 'Startup 2'
-      title: 'Startup 2'
+      alt: 'Woman at a desk with a computer, holding a mug, in a classroom setting.'
+      title: 'Woman at a desk with a computer, holding a mug, in a classroom setting.'
       width: 900
       height: 600
   field_media_in_library:

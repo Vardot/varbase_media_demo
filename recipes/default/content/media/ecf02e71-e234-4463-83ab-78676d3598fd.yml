@@ -3,7 +3,7 @@ _meta:
   entity_type: media
   uuid: ecf02e71-e234-4463-83ab-78676d3598fd
   bundle: video
-  default_langcode: und
+  default_langcode: en
   depends:
     c316455a-ec9c-4e26-bb94-8fd4423c3c74: file
     5af68702-cd87-4c2a-86fd-29eecda0ecc3: file
@@ -26,13 +26,15 @@ default:
   created:
     -
       value: 1642682178
-  revision_translation_affected:
+  path:
     -
-      value: true
+      alias: ''
+      langcode: en
+      pathauto: 1
   field_media_cover_image:
     -
       entity: c316455a-ec9c-4e26-bb94-8fd4423c3c74
-      alt: ''
+      alt: 'Person in red jacket holding and biting a watermelon slice.'
       title: ''
       width: 1200
       height: 800

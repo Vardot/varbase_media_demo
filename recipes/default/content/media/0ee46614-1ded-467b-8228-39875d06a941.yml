@@ -21,18 +21,23 @@ default:
       target_id: 1
   name:
     -
-      value: 'Coworking 4'
+      value: 'People working at desk'
   created:
     -
       value: 1642682146
   revision_translation_affected:
     -
       value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
   field_media_image:
     -
       entity: 77c0e38c-8dee-446e-ab7c-423d805a1126
-      alt: 'Coworking 4'
-      title: 'Coworking 4'
+      alt: 'People working at a desk, screen shows 85.00%.'
+      title: 'People at desk with screen showing 85%'
       width: 1200
       height: 800
   field_media_in_library:
