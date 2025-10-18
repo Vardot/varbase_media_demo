@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "plugin:yml/recommended"
+  ],
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "yml/indent": ["error", 2]
+  }
+}
