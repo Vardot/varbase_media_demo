@@ -42,7 +42,7 @@ default:
       value: true
   field_media_oembed_video:
     -
-      value: 'https://vimeo.com/76979871'
+      value: 'https://vimeo.com/22439234'
   field_provider:
     -
       value: vimeo
