@@ -1,0 +1,57 @@
+################################################################################
+# GitLab CI for the Varbase Media Demo module (9.0.x - Drupal ~9 line).
+#
+# The standard Drupal CI validation jobs (composer, composer-lint, cspell,
+# eslint, phpcs, phpstan) provided by the drupalci templates. Every validate
+# job gates strictly (allow_failure:false). The module ships demo default
+# content only (no CSS/JS of its own and no PHPUnit tests), so no stylelint,
+# phpunit or browser-test jobs run here.
+################################################################################
+
+include:
+  - project: $_GITLAB_TEMPLATES_REPO
+    ref: $_GITLAB_TEMPLATES_REF
+    file:
+      - "/includes/include.drupalci.main.yml"
+      - "/includes/include.drupalci.variables.yml"
+      - "/includes/include.drupalci.workflows.yml"
+
+variables:
+  DRUPAL_CORE: "9.5.11"
+  IGNORE_PROJECT_DRUPAL_CORE_VERSION: "1"
+  # Make every drupalci validate job blocking (a few default to
+  # allow_failure:true). Combined with the per-job allow_failure:false
+  # overrides below, the whole pipeline gates strictly.
+  _ALL_VALIDATE_ALLOW_FAILURE: "0"
+  COMPOSER_FLAGS: "--no-strict-lock"
+  COMPOSER_MEMORY_LIMIT: "-1"
+
+# Allow the Varbase stack Composer plugins in the CI build (allow-plugins
+# normally lives in the varbase_project template, not in modules). Keeps the
+# drupalci template's own composer script, which builds the web/ test site the
+# validate jobs run against.
+composer:
+  before_script:
+    - composer config --no-plugins allow-plugins.symfony/runtime true || true
+    - composer config --no-plugins allow-plugins.composer/installers true || true
+    - composer config --no-plugins allow-plugins.cweagans/composer-patches true || true
+    - composer config --no-plugins allow-plugins.oomphinc/composer-installers-extender true || true
+    - composer config --no-plugins allow-plugins.drupal/core-composer-scaffold true || true
+    - composer config --no-plugins allow-plugins.drupal/core-project-message true || true
+    - composer config --no-plugins allow-plugins.dealerdirect/phpcodesniffer-composer-installer true || true
+    - composer config --no-plugins allow-plugins.phpstan/extension-installer true || true
+    - composer config --no-plugins allow-plugins.php-http/discovery true || true
+    - composer config --no-plugins allow-plugins.tbachert/spi true || true
+    - composer config --no-plugins allow-plugins.vardot/varbase-patches true || true
+
+# = Validate stage (all blocking) =
+composer-lint:
+  allow_failure: false
+cspell:
+  allow_failure: false
+eslint:
+  allow_failure: false
+phpcs:
+  allow_failure: false
+phpstan:
+  allow_failure: false
