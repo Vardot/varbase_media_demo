@@ -1,4 +1,4 @@
-// Cucumber-js config for the Varbase Media Demo Assets webship-js suite.
+// Cucumber-js config for the Varbase Media Demo Assets varbase-e2e suite.
 //
 // Runs the Drupal Standard profile feature set (Olivero front end, Claro
 // admin theme) under tests/features/drupal/ against a site that has Varbase
@@ -7,7 +7,7 @@
 //
 //   npx cucumber-js --config cucumber.js
 //
-// Reusable step definitions ship with webship-js; the module-specific steps
+// Reusable step definitions ship with varbase-e2e; the module-specific steps
 // live in tests/step-definitions/varbase_media_demo.steps.js. Every
 // worldParameter (users, selectors, screenshot, video, javascript,
 // minWaitTime, launchUrl) is inlined below - this single file is the whole
@@ -19,7 +19,7 @@ module.exports = {
     timeout: 120000,
     requireModule: ['tsx/cjs'],
     require: [
-      'node_modules/webship-js/tests/step-definitions/**/*.js',
+      'node_modules/@vardot/varbase-e2e/tests/step-definitions/**/*.js',
       'tests/step-definitions/**/*.js',
     ],
     paths: ['tests/features/drupal/**/*.feature'],
@@ -77,13 +77,13 @@ module.exports = {
         infoTypes: '',
       },
       video: {
-        mode: process.env.WEBSHIP_VIDEO || 'on-failure',
+        mode: process.env.VARBASE_E2E_VIDEO || 'on-failure',
         dir: './tests/videos',
         size: { width: 1920, height: 1080 },
         filenamePattern: '{datetime}.{feature_file}.{scenario}.{status}.{ext}',
       },
       javascript: {
-        mode: process.env.WEBSHIP_JS_ERROR_MODE || 'warn',
+        mode: process.env.VARBASE_E2E_JS_ERROR_MODE || 'warn',
         levels: ['error'],
         ignore: '',
         beforeScenario: false,

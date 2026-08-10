@@ -18,8 +18,7 @@
     "recipes/**/config/**"
   ],
   "words": [
-    "webship",
-    "WEBSHIP",
+    "varbase-e2e",
     "drupalci",
     "hreflang",
     "reqs",

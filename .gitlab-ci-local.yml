@@ -13,7 +13,7 @@
 #
 # EVERY job is allow_failure:false - the whole local pipeline must be green.
 # This mirrors the strict gating enforced on the remote drupalci pipeline.
-# The webship-js browser job lives only in the remote .gitlab-ci.yml (it needs a
+# The varbase-e2e browser job lives only in the remote .gitlab-ci.yml (it needs a
 # database service and a full Drupal install) and is not reproduced here.
 ################################################################################
 
